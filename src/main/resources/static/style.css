@@ -1,0 +1,109 @@
+#rover {
+    position: absolute;
+    width: 100px;
+    transition: all 500ms linear;
+}
+
+.rock {
+    position: absolute;
+    width: 100px;
+    margin-top: 22px;
+}
+
+#control-panel {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.8;
+    bottom: 260px;
+    left: calc(50% - 176px);
+}
+
+#control-panel .btn-control {
+    width: 80px;
+    cursor:pointer;
+}
+
+#forward {
+    bottom: 50px;
+}
+
+audio {
+    display:none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Color de fondo para los huecos de la red */
+}
+
+.contenido {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima de la red */
+    /* Resto de estilos para el contenido */
+}
+
+.container2 {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 900px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+  }
+  
+  .controls {
+    margin-bottom: 0;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .brujula {
+    width: 200px;
+    height: 200px;
+    margin-top: 165px;
+  }
